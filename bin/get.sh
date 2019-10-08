@@ -2,7 +2,8 @@
 #  @author:       Zhanliang Liu
 #  @description:  get www.bjjs.gov.cn daily
 HOME=/home/zliu
-url="http://www.bjjs.gov.cn/bjjs/fwgl/fdcjy/fwjy/index.shtml"
+#url="http://www.bjjs.gov.cn/bjjs/fwgl/fdcjy/fwjy/index.shtml"
+url="http://zjw.beijing.gov.cn/bjjs/fwgl/fdcjy/fwjy/index.shtml"
 echo "Starting download ${url}"
 CURR_PATH=`cd $(dirname $0);pwd;`
 cd $CURR_PATH
